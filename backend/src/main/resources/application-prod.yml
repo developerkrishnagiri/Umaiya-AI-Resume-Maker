@@ -1,0 +1,19 @@
+server:
+  port: ${PORT:8080}
+  address: 0.0.0.0
+
+spring:
+  datasource:
+    url: ${jdbc:postgresql://dpg-d6micrn5r7bs73cf6qn0-a.oregon-postgres.render.com:5432/umaiya_ai_resume}
+    username: ${umaiya_ai_resume_user}
+    password: ${GWVnbhW0dBfLR3BehD39wUJxnKCbc4Ji}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+logging:
+  level:
+    com.aicareer: INFO
