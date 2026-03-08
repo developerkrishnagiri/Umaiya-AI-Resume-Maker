@@ -1,0 +1,259 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.aicareer:ai-career-platform >-------------------
+[INFO] Building AI Career Platform 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ai-career-platform ---
+[INFO] Deleting C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ ai-career-platform >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-career-platform ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-career-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 57 source files with javac [forked debug release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ai-career-platform ---
+[INFO] skip non existing resourceDirectory C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ai-career-platform ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ ai-career-platform <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ ai-career-platform ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-07T22:46:17.613+05:30  INFO 5244 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Starting AiCareerApplication using Java 21.0.10 with PID 5244 (C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target\classes started by Muniyappan R in C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend)
+2026-03-07T22:46:17.624+05:30 DEBUG 5244 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-07T22:46:17.630+05:30  INFO 5244 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-07T22:46:23.138+05:30  INFO 5244 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-07T22:46:23.642+05:30  INFO 5244 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 464 ms. Found 10 JPA repository interfaces.
+2026-03-07T22:46:28.008+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-07T22:46:28.077+05:30  INFO 5244 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-07T22:46:28.080+05:30  INFO 5244 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-07T22:46:28.539+05:30  INFO 5244 --- [ai-career-platform] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-07T22:46:28.542+05:30  INFO 5244 --- [ai-career-platform] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10690 ms
+2026-03-07T22:46:29.695+05:30  INFO 5244 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-07T22:46:30.693+05:30  INFO 5244 --- [ai-career-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a357c3e
+2026-03-07T22:46:30.697+05:30  INFO 5244 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-07T22:46:31.044+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-03-07T22:46:31.044+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-03-07T22:46:31.044+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : 
+2026-03-07T22:46:31.105+05:30  INFO 5244 --- [ai-career-platform] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/ai_career_platform (PostgreSQL 18.3)
+2026-03-07T22:46:31.129+05:30  WARN 5244 --- [ai-career-platform] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: PostgreSQL 18.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2026-03-07T22:46:31.293+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.121s)
+2026-03-07T22:46:31.339+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2026-03-07T22:46:31.355+05:30  INFO 5244 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-03-07T22:46:31.882+05:30  INFO 5244 --- [ai-career-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-07T22:46:32.321+05:30  INFO 5244 --- [ai-career-platform] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-07T22:46:32.601+05:30  INFO 5244 --- [ai-career-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-07T22:46:34.023+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-07T22:46:34.355+05:30  WARN 5244 --- [ai-career-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-07T22:46:41.084+05:30  INFO 5244 --- [ai-career-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-07T22:46:41.099+05:30  INFO 5244 --- [ai-career-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07T22:46:43.058+05:30 DEBUG 5244 --- [ai-career-platform] [           main] com.aicareer.security.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2026-03-07T22:46:43.343+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-07T22:46:50.892+05:30  WARN 5244 --- [ai-career-platform] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-07T22:46:54.905+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-03-07T22:46:55.866+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@78e6cfb4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55843367, org.springframework.security.web.context.SecurityContextHolderFilter@4e5fd16c, org.springframework.security.web.header.HeaderWriterFilter@6243e46f, org.springframework.web.filter.CorsFilter@70ecb7f6, org.springframework.security.web.authentication.logout.LogoutFilter@4aae493, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@71fcdd48, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@1a7ca7a3, com.aicareer.security.JwtAuthFilter@5f386009, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65babe35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@101e75ab, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7419c8e2, org.springframework.security.web.session.SessionManagementFilter@6125b27a, org.springframework.security.web.access.ExceptionTranslationFilter@212c7d47, org.springframework.security.web.access.intercept.AuthorizationFilter@2f6bf9fb]
+2026-03-07T22:46:58.498+05:30  INFO 5244 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-07T22:46:58.562+05:30  INFO 5244 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Started AiCareerApplication in 43.095 seconds (process running for 45.585)
+2026-03-07T22:47:23.215+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07T22:47:23.216+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-07T22:47:23.220+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-03-07T22:47:23.290+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:47:23.876+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T22:47:23.878+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.s.w.session.SessionManagementFilter  : Request requested invalid session id BB4DE81325DC6A5D4CB7C743DC7013EF
+2026-03-07T22:47:23.940+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /error
+2026-03-07T22:47:23.947+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T22:47:24.074+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T22:47:24.078+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T22:47:24.079+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.s.w.session.SessionManagementFilter  : Request requested invalid session id BB4DE81325DC6A5D4CB7C743DC7013EF
+2026-03-07T22:47:24.087+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T22:47:25.425+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:47:25.567+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:47:32.481+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:47:32.510+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:47:32.550+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:47:32.569+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:48:39.849+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:48:39.872+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:48:39.900+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:48:39.925+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:48:55.060+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:48:55.062+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:48:55.065+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:48:55.105+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:48:55.128+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:48:55.132+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:48:55.252+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:48:55.282+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:48:55.482+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:48:55.509+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:48:55.604+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:48:55.710+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:48:57.916+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:48:58.041+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:48:58.467+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:48:58.524+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:48:59.625+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T22:48:59.649+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T22:48:59.807+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:48:59.863+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:49:00.562+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:00.644+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:00.842+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:00.871+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:01.040+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:49:01.152+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:49:03.521+05:30  WARN 5244 --- [ai-career-platform] [nio-8080-exec-6] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T22:49:04.790+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:49:04.882+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:49:04.972+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T22:49:04.979+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-8] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2026-03-07T22:49:05.045+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T22:49:05.411+05:30  WARN 5244 --- [ai-career-platform] [nio-8080-exec-3] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T22:49:17.894+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:49:17.989+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:49:18.004+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-2] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2026-03-07T22:49:22.411+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:49:22.474+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:49:23.453+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:49:23.475+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:49:43.598+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:43.660+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:43.785+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:49:43.844+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:50:18.165+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:50:18.216+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:50:21.604+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:50:21.664+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:50:21.693+05:30  INFO 5244 --- [ai-career-platform] [io-8080-exec-10] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2026-03-07T22:50:37.664+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:50:37.664+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:50:37.664+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:50:37.718+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:50:37.721+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:50:37.718+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:50:37.817+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:50:37.864+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:50:37.877+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:50:37.905+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:50:38.023+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:50:38.065+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:50:41.246+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:50:41.322+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:50:41.414+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:50:41.473+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:50:46.894+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:50:46.956+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:50:48.582+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing DELETE /api/interview/sessions/dee61898-869d-47a4-9322-85ade67c41bd
+2026-03-07T22:50:48.607+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured DELETE /api/interview/sessions/dee61898-869d-47a4-9322-85ade67c41bd
+2026-03-07T22:51:00.390+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/interview/sessions
+2026-03-07T22:51:00.457+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/interview/sessions
+2026-03-07T22:51:01.241+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/bbbd44be-c0df-4824-9030-2238597cd4b6
+2026-03-07T22:51:01.311+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/bbbd44be-c0df-4824-9030-2238597cd4b6
+2026-03-07T22:51:01.560+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/bbbd44be-c0df-4824-9030-2238597cd4b6
+2026-03-07T22:51:01.605+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/bbbd44be-c0df-4824-9030-2238597cd4b6
+2026-03-07T22:51:04.861+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:04.861+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:51:04.885+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:51:04.918+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:04.918+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:51:04.945+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:51:04.996+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:51:05.046+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:51:05.093+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:51:05.155+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:51:05.174+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:05.274+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:16.792+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:51:16.819+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:51:18.665+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:51:18.702+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:51:18.708+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-3] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2026-03-07T22:51:25.517+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:25.550+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:25.688+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:25.729+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:28.125+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:28.153+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:28.283+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:51:28.306+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:51:57.396+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:51:57.408+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:52:27.365+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:52:27.370+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:52:57.566+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:52:57.691+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:52:58.522+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:52:58.544+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:52:58.656+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:52:58.684+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:53:00.925+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:00.945+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:01.005+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:01.025+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:07.075+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:53:07.118+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:53:07.131+05:30  INFO 5244 --- [ai-career-platform] [nio-8080-exec-3] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+2026-03-07T22:53:27.378+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:53:27.388+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:53:43.852+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:43.858+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:53:57.367+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:53:57.375+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:54:13.846+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:54:13.851+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:54:27.374+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:54:27.380+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:54:43.851+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:54:43.858+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:54:57.382+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:54:57.395+05:30 DEBUG 5244 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:55:13.842+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:55:13.863+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:55:27.380+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:55:27.392+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:55:43.847+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:55:43.857+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:55:57.374+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:55:57.380+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:56:13.847+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:13.852+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:27.999+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:56:28.026+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:56:43.889+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:43.910+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:50.098+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:50.124+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/2c3208cd-9dfa-4bd5-ac54-a8f8e6db5bab
+2026-03-07T22:56:50.870+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:56:51.075+05:30 DEBUG 5244 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11:50 min
+[INFO] Finished at: 2026-03-07T22:57:20+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project ai-career-platform: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

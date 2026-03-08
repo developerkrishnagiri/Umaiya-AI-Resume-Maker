@@ -1,0 +1,363 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.aicareer:ai-career-platform >-------------------
+[INFO] Building AI Career Platform 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ai-career-platform ---
+[INFO] Deleting C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ ai-career-platform >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-career-platform ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-career-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 57 source files with javac [forked debug release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ai-career-platform ---
+[INFO] skip non existing resourceDirectory C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ai-career-platform ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ ai-career-platform <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ ai-career-platform ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-07T22:36:52.313+05:30  INFO 9312 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Starting AiCareerApplication using Java 21.0.10 with PID 9312 (C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target\classes started by Muniyappan R in C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend)
+2026-03-07T22:36:52.322+05:30 DEBUG 9312 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-07T22:36:52.325+05:30  INFO 9312 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-07T22:36:55.982+05:30  INFO 9312 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-07T22:36:56.118+05:30  INFO 9312 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 10 JPA repository interfaces.
+2026-03-07T22:36:57.915+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-07T22:36:57.948+05:30  INFO 9312 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-07T22:36:57.949+05:30  INFO 9312 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-07T22:36:58.152+05:30  INFO 9312 --- [ai-career-platform] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-07T22:36:58.153+05:30  INFO 9312 --- [ai-career-platform] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5586 ms
+2026-03-07T22:36:58.629+05:30  INFO 9312 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-07T22:36:59.054+05:30  INFO 9312 --- [ai-career-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a357c3e
+2026-03-07T22:36:59.056+05:30  INFO 9312 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-07T22:36:59.252+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-03-07T22:36:59.252+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-03-07T22:36:59.252+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : 
+2026-03-07T22:36:59.290+05:30  INFO 9312 --- [ai-career-platform] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/ai_career_platform (PostgreSQL 18.3)
+2026-03-07T22:36:59.305+05:30  WARN 9312 --- [ai-career-platform] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: PostgreSQL 18.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2026-03-07T22:36:59.406+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.071s)
+2026-03-07T22:36:59.460+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2026-03-07T22:36:59.469+05:30  INFO 9312 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-03-07T22:36:59.730+05:30  INFO 9312 --- [ai-career-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-07T22:36:59.940+05:30  INFO 9312 --- [ai-career-platform] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-07T22:37:00.161+05:30  INFO 9312 --- [ai-career-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-07T22:37:01.167+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-07T22:37:01.435+05:30  WARN 9312 --- [ai-career-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-07T22:37:07.300+05:30  INFO 9312 --- [ai-career-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-07T22:37:07.306+05:30  INFO 9312 --- [ai-career-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07T22:37:08.140+05:30 DEBUG 9312 --- [ai-career-platform] [           main] com.aicareer.security.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2026-03-07T22:37:08.307+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-07T22:37:11.672+05:30  WARN 9312 --- [ai-career-platform] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-07T22:37:12.778+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-03-07T22:37:13.020+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5756611d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b0a37a5, org.springframework.security.web.context.SecurityContextHolderFilter@34d27e12, org.springframework.security.web.header.HeaderWriterFilter@1cff987c, org.springframework.web.filter.CorsFilter@71fcdd48, org.springframework.security.web.authentication.logout.LogoutFilter@6b437b24, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@56a4969b, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@b66d50c, com.aicareer.security.JwtAuthFilter@18f919ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@234df1dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6125b27a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@534a5e70, org.springframework.security.web.session.SessionManagementFilter@212c7d47, org.springframework.security.web.access.ExceptionTranslationFilter@17d1cd42, org.springframework.security.web.access.intercept.AuthorizationFilter@2032dad7]
+2026-03-07T22:37:14.826+05:30  INFO 9312 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-07T22:37:14.878+05:30  INFO 9312 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Started AiCareerApplication in 25.193 seconds (process running for 28.128)
+2026-03-07T22:37:43.966+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07T22:37:43.967+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-07T22:37:43.970+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-07T22:37:44.032+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:37:45.279+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:37:48.999+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:37:49.032+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:37:49.097+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T22:37:49.122+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T22:38:08.736+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:38:08.764+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:38:08.770+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:38:08.776+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:38:08.798+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:38:08.804+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:38:09.078+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T22:38:09.112+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T22:38:09.112+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T22:38:09.114+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:38:09.139+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T22:38:09.140+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:38:23.318+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:38:23.339+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:38:23.506+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T22:38:23.529+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T22:38:47.149+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:38:47.172+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:38:47.474+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:38:47.490+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:39:23.146+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:39:23.167+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:39:43.944+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:39:43.971+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:39:43.982+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-6] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+2026-03-07T22:39:45.936+05:30 ERROR 9312 --- [ai-career-platform] [nio-8080-exec-6] com.aicareer.service.GeminiService       : Gemini error: 429 - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 14.104206827s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "14s"
+      }
+    ]
+  }
+}
+
+2026-03-07T22:39:53.106+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:39:53.187+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:40:23.288+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:40:23.302+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:40:41.637+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:40:41.657+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:40:41.662+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-8] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+2026-03-07T22:40:41.806+05:30 ERROR 9312 --- [ai-career-platform] [nio-8080-exec-8] com.aicareer.service.GeminiService       : Gemini error: 429 - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 18.146223014s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "18s"
+      }
+    ]
+  }
+}
+
+2026-03-07T22:40:53.424+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:40:53.449+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:41:21.702+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:41:21.728+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:41:21.733+05:30  INFO 9312 --- [ai-career-platform] [io-8080-exec-10] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+2026-03-07T22:41:21.887+05:30 ERROR 9312 --- [ai-career-platform] [io-8080-exec-10] com.aicareer.service.GeminiService       : Gemini error: 429 - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\nPlease retry in 38.06604902s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-2.0-flash",
+              "location": "global"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "38s"
+      }
+    ]
+  }
+}
+
+2026-03-07T22:41:23.912+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:41:23.927+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:41:55.020+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:41:55.044+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:42:23.216+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:42:23.236+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:42:53.133+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:42:53.150+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:43:23.107+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:43:23.126+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:43:30.833+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/ats/ai-improve
+2026-03-07T22:43:30.849+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/ats/ai-improve
+2026-03-07T22:43:30.854+05:30  INFO 9312 --- [ai-career-platform] [nio-8080-exec-4] com.aicareer.service.GeminiService       : Gemini Request URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+2026-03-07T22:43:31.000+05:30 ERROR 9312 --- [ai-career-platform] [nio-8080-exec-4] com.aicareer.service.GeminiService       : Gemini error: 429 - {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\nPlease retry in 28.967559161s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://ai.google.dev/gemini-api/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count",
+            "quotaId": "GenerateContentInputTokensPerModelPerMinute-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          },
+          {
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "location": "global",
+              "model": "gemini-2.0-flash"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "28s"
+      }
+    ]
+  }
+}
+
+2026-03-07T22:43:53.100+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:43:53.112+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:44:23.111+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:44:23.123+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:44:53.096+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:44:53.106+05:30 DEBUG 9312 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:45:23.119+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+2026-03-07T22:45:23.144+05:30 DEBUG 9312 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured PUT /api/resumes/dd49f5c6-a437-43a7-972d-43644e3c39c9
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  09:18 min
+[INFO] Finished at: 2026-03-07T22:45:28+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project ai-career-platform: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

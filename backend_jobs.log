@@ -1,0 +1,607 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.aicareer:ai-career-platform >-------------------
+[INFO] Building AI Career Platform 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ai-career-platform ---
+[INFO] Deleting C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target
+[INFO] 
+[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ ai-career-platform >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-career-platform ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-career-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 57 source files with javac [forked debug release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ ai-career-platform ---
+[INFO] skip non existing resourceDirectory C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ ai-career-platform ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ ai-career-platform <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.3:run (default-cli) @ ai-career-platform ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2026-03-07T21:45:57.336+05:30  INFO 26396 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Starting AiCareerApplication using Java 21.0.10 with PID 26396 (C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target\classes started by Muniyappan R in C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend)
+2026-03-07T21:45:57.337+05:30 DEBUG 26396 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Running with Spring Boot v3.2.3, Spring v6.1.4
+2026-03-07T21:45:57.338+05:30  INFO 26396 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-07T21:45:58.623+05:30  INFO 26396 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-07T21:45:58.713+05:30  INFO 26396 --- [ai-career-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 10 JPA repository interfaces.
+2026-03-07T21:45:59.573+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-07T21:45:59.584+05:30  INFO 26396 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-07T21:45:59.585+05:30  INFO 26396 --- [ai-career-platform] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-07T21:45:59.699+05:30  INFO 26396 --- [ai-career-platform] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-07T21:45:59.700+05:30  INFO 26396 --- [ai-career-platform] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2306 ms
+2026-03-07T21:45:59.934+05:30  INFO 26396 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-07T21:46:00.111+05:30  INFO 26396 --- [ai-career-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a357c3e
+2026-03-07T21:46:00.114+05:30  INFO 26396 --- [ai-career-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-07T21:46:00.191+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 9.22.3 by Redgate
+2026-03-07T21:46:00.191+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : See release notes here: https://rd.gt/416ObMi
+2026-03-07T21:46:00.191+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.c.internal.license.VersionPrinter    : 
+2026-03-07T21:46:00.203+05:30  INFO 26396 --- [ai-career-platform] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:postgresql://localhost:5432/ai_career_platform (PostgreSQL 18.3)
+2026-03-07T21:46:00.208+05:30  WARN 26396 --- [ai-career-platform] [           main] o.f.c.internal.database.base.Database    : Flyway upgrade recommended: PostgreSQL 18.3 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2026-03-07T21:46:00.244+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.025s)
+2026-03-07T21:46:00.273+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2026-03-07T21:46:00.275+05:30  INFO 26396 --- [ai-career-platform] [           main] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2026-03-07T21:46:00.369+05:30  INFO 26396 --- [ai-career-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-07T21:46:00.437+05:30  INFO 26396 --- [ai-career-platform] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-07T21:46:00.479+05:30  INFO 26396 --- [ai-career-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-07T21:46:00.749+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-07T21:46:00.814+05:30  WARN 26396 --- [ai-career-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-07T21:46:02.453+05:30  INFO 26396 --- [ai-career-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-07T21:46:02.457+05:30  INFO 26396 --- [ai-career-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-07T21:46:02.871+05:30 DEBUG 26396 --- [ai-career-platform] [           main] com.aicareer.security.JwtAuthFilter      : Filter 'jwtAuthFilter' configured for use
+2026-03-07T21:46:02.945+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-03-07T21:46:04.458+05:30  WARN 26396 --- [ai-career-platform] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-07T21:46:04.939+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2026-03-07T21:46:05.065+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15a09ddc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46fd6d87, org.springframework.security.web.context.SecurityContextHolderFilter@3b44d50b, org.springframework.security.web.header.HeaderWriterFilter@137fbb47, org.springframework.web.filter.CorsFilter@40151a6b, org.springframework.security.web.authentication.logout.LogoutFilter@4c8a893e, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@7270ff5d, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@763a602, com.aicareer.security.JwtAuthFilter@111ae918, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@561fdee3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30661521, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@747fa2b5, org.springframework.security.web.session.SessionManagementFilter@8d92b1e, org.springframework.security.web.access.ExceptionTranslationFilter@22ecb321, org.springframework.security.web.access.intercept.AuthorizationFilter@4f62767c]
+2026-03-07T21:46:05.777+05:30  INFO 26396 --- [ai-career-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-03-07T21:46:05.791+05:30  INFO 26396 --- [ai-career-platform] [           main] com.aicareer.AiCareerApplication         : Started AiCareerApplication in 8.942 seconds (process running for 9.445)
+2026-03-07T21:47:34.719+05:30  INFO 26396 --- [ai-career-platform] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-07T21:47:34.719+05:30  INFO 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-07T21:47:34.722+05:30  INFO 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-07T21:47:34.746+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T21:47:34.746+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:47:35.144+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T21:47:35.144+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:47:35.217+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T21:47:35.225+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T21:47:36.867+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-1] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:47:37.839+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:47:37.866+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:47:38.269+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-4] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:49:02.528+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=developer&location=&page=0&size=20
+2026-03-07T21:49:02.544+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=developer&location=&page=0&size=20
+2026-03-07T21:49:03.838+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-5] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:50:07.076+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/public/search?keyword=developer&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:50:07.408+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/public/search?keyword=developer&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:50:13.693+05:30 ERROR 26396 --- [ai-career-platform] [nio-8080-exec-6] c.a.exception.GlobalExceptionHandler     : Unhandled exception
+
+org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:489) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:114) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at com.aicareer.security.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:56) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:181) ~[spring-security-oauth2-client-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: org.springframework.data.domain.PageImpl["content"]->java.util.Collections$UnmodifiableRandomAccessList[0]->com.aicareer.entity.Job["recruiter"]->com.aicareer.entity.User$HibernateProxy$EmvnL1EG["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1308) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:53) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:30) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:479) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:318) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.4.jar:6.1.4]
+	... 145 common frames omitted
+
+2026-03-07T21:50:20.247+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=developer&location=&page=0&size=20
+2026-03-07T21:50:20.264+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:50:20.290+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=developer&location=&page=0&size=20
+2026-03-07T21:50:21.823+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-7] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:50:46.465+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/public/search?keyword=developer&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:50:46.478+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:50:46.480+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/public/search?keyword=developer&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:50:46.556+05:30 ERROR 26396 --- [ai-career-platform] [nio-8080-exec-8] c.a.exception.GlobalExceptionHandler     : Unhandled exception
+
+org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:489) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:114) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:297) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor.handleReturnValue(HttpEntityMethodProcessor.java:245) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:136) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:920) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.19.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:110) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:479) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:340) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:82) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:128) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:100) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:131) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:85) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at com.aicareer.security.JwtAuthFilter.doFilterInternal(JwtAuthFilter.java:56) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:221) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:181) ~[spring-security-oauth2-client-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:227) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:240) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:323) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:224) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:137) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$3(HandlerMappingIntrospector.java:195) ~[spring-webmvc-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:230) ~[spring-security-config-6.2.2.jar:6.2.2]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.4.jar:6.1.4]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class org.hibernate.proxy.pojo.bytebuddy.ByteBuddyInterceptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: org.springframework.data.domain.PageImpl["content"]->java.util.Collections$UnmodifiableRandomAccessList[0]->com.aicareer.entity.Job["recruiter"]->com.aicareer.entity.User$HibernateProxy$EmvnL1EG["hibernateLazyInitializer"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1308) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:53) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:30) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:732) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:772) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:479) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:318) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1572) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1061) ~[jackson-databind-2.15.4.jar:2.15.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:483) ~[spring-web-6.1.4.jar:6.1.4]
+	... 145 common frames omitted
+
+2026-03-07T21:51:01.778+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/public/search?keyword=IT+Support&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:51:01.781+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:01.784+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/public/search?keyword=IT+Support&location=&jobType=&industry=&page=0&size=12
+2026-03-07T21:51:07.695+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:07.699+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:07.700+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:08.036+05:30  WARN 26396 --- [ai-career-platform] [io-8080-exec-10] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:51:10.269+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:10.325+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:10.485+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:10.875+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-2] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:51:14.276+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:14.324+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:14.330+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=IT+Support&location=&page=0&size=20
+2026-03-07T21:51:14.677+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-3] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:51:17.061+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:17.061+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:17.073+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.074+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:17.077+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.077+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.117+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.118+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.119+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.121+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.122+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.148+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.169+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:17.181+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.198+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:17.204+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.205+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.205+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.214+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.219+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.223+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.225+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.229+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.245+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:17.255+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.266+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2026-03-07T21:51:17.277+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.286+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.287+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.289+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.289+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.289+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.292+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.293+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:17.293+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:17.293+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:17.293+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.294+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:17.295+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:17.314+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/refresh
+2026-03-07T21:51:17.318+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2026-03-07T21:51:17.320+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/refresh
+2026-03-07T21:51:18.098+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:18.109+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:18.110+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:18.133+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:18.138+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:18.146+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:18.218+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:18.244+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:18.507+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:18.527+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:18.601+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:18.633+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:19.853+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:19.942+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:20.093+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:20.118+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:23.867+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:23.913+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:24.138+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:24.153+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:27.604+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:27.606+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:27.620+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:27.653+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:27.655+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:27.686+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:27.736+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:27.755+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:27.756+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:27.774+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:27.856+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:27.870+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:34.043+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:34.096+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:34.426+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:34.480+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:40.165+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:40.190+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:40.490+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:40.556+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/7b8ade57-135a-45b6-afd4-8278def72d7d
+2026-03-07T21:51:42.924+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:42.933+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:42.946+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:42.948+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:42.967+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:43.066+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:43.103+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:43.161+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:43.193+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:43.241+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:43.568+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:43.698+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:47.638+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:47.731+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:47.789+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:47.804+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:49.838+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/f771c27c-0be5-4dbb-8116-19a558b0cba3
+2026-03-07T21:51:49.858+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/f771c27c-0be5-4dbb-8116-19a558b0cba3
+2026-03-07T21:51:49.869+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions/f771c27c-0be5-4dbb-8116-19a558b0cba3
+2026-03-07T21:51:49.880+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions/f771c27c-0be5-4dbb-8116-19a558b0cba3
+2026-03-07T21:51:52.775+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:52.809+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:52.817+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:52.844+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:52.859+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:52.861+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:52.941+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/applied
+2026-03-07T21:51:53.056+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/applied
+2026-03-07T21:51:53.116+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:53.152+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/resumes
+2026-03-07T21:51:53.164+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:53.230+05:30 DEBUG 26396 --- [ai-career-platform] [io-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/resumes
+2026-03-07T21:51:55.450+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:55.500+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:51:55.607+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:51:55.685+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:53:28.950+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:53:28.950+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T21:53:28.955+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T21:53:28.955+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/jobs/external/search?keyword=&location=&page=0&size=20
+2026-03-07T21:53:28.957+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:53:28.964+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:53:28.966+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2026-03-07T21:53:28.970+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2026-03-07T21:53:30.299+05:30  WARN 26396 --- [ai-career-platform] [nio-8080-exec-9] c.aicareer.service.ExternalJobService    : Adzuna API error: 401 - trying Remotive fallback
+2026-03-07T21:54:05.481+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:54:05.486+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+2026-03-07T21:54:13.306+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/interview/sessions
+2026-03-07T21:54:13.311+05:30 DEBUG 26396 --- [ai-career-platform] [nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/interview/sessions
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:43 min
+[INFO] Finished at: 2026-03-07T21:54:29+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.3:run (default-cli) on project ai-career-platform: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

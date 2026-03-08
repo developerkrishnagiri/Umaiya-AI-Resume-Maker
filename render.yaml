@@ -1,0 +1,40 @@
+services:
+
+  # Spring Boot Backend
+  - type: web
+    name: resume-backend
+    runtime: java
+    repo: https://github.com/developerkrishnagiri/Umaiya-AI-Resume-Maker.git
+    rootDir: backend
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/*.jar
+    plan: free
+    envVars:
+      - key: JAVA_VERSION
+        value: "21" # Required since your pom.xml uses Java 21
+      - key: SPRING_DATASOURCE_URL
+        fromDatabase:
+          name: resume-db
+          property: connectionString
+      - key: SPRING_DATASOURCE_USERNAME
+        fromDatabase:
+          name: resume-db
+          property: user
+      - key: SPRING_DATASOURCE_PASSWORD
+        fromDatabase:
+          name: resume-db
+          property: password
+
+  # React (Vite) Frontend
+  - type: web
+    name: resume-frontend
+    runtime: static
+    repo: https://github.com/developerkrishnagiri/Umaiya-AI-Resume-Maker.git
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist # Vite outputs to 'dist' directory, not 'build'
+
+databases:
+
+  - name: resume-db
+    plan: free
