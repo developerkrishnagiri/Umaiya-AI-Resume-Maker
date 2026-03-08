@@ -12,6 +12,15 @@ export default function RegisterPage() {
     const [showPw, setShowPw] = useState(false)
     const role = watch('role')
 
+    const getBackendUrl = () => {
+        const apiUrl = import.meta.env.VITE_API_URL || '';
+        return apiUrl.replace(/\/api$/, '');
+    };
+
+    const handleOAuthSignup = (provider) => {
+        window.location.href = `${getBackendUrl()}/oauth2/authorization/${provider}`;
+    };
+
     const onSubmit = async (data) => {
         try {
             const res = await signup(data)
@@ -99,7 +108,7 @@ export default function RegisterPage() {
                     <div className="space-y-3">
                         <button
                             type="button"
-                            onClick={() => window.location.href = '/oauth2/authorization/google'}
+                            onClick={() => handleOAuthSignup('google')}
                             className="btn-secondary w-full gap-3 py-2.5 hover:border-blue-500/50 transition-all duration-200"
                         >
                             <svg className="w-5 h-5 flex-shrink-0" viewBox="0 0 24 24">
@@ -112,7 +121,7 @@ export default function RegisterPage() {
                         </button>
                         <button
                             type="button"
-                            onClick={() => window.location.href = '/oauth2/authorization/linkedin'}
+                            onClick={() => handleOAuthSignup('linkedin')}
                             className="btn-secondary w-full gap-3 py-2.5 hover:border-[#0A66C2]/50 transition-all duration-200"
                         >
                             <svg className="w-5 h-5 flex-shrink-0" fill="#0A66C2" viewBox="0 0 24 24">
