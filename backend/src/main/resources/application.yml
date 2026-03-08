@@ -1,0 +1,119 @@
+spring:
+  application:
+    name: ai-career-platform
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/ai_career_platform}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:1234}
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 20
+      minimum-idle: 5
+      connection-timeout: 30000
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        jdbc:
+          batch_size: 20
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+  mail:
+    host: ${MAIL_HOST:smtp.gmail.com}
+    port: ${MAIL_PORT:587}
+    username: ${MAIL_USERNAME:noreply@aicareer.com}
+    password: ${MAIL_PASSWORD:}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: ${GOOGLE_CLIENT_ID:163880756586-v48uouop16pu6853l0paois06dt95v33.apps.googleusercontent.com}
+            client-secret: ${GOOGLE_CLIENT_SECRET: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}
+            scope: openid,profile,email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+          linkedin:
+            client-id: ${LINKEDIN_CLIENT_ID:placeholder-linkedin-client-id}
+            client-secret: ${LINKEDIN_CLIENT_SECRET:placeholder-linkedin-client-secret}
+            scope: r_liteprofile,r_emailaddress
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            authorization-grant-type: authorization_code
+        provider:
+          linkedin:
+            authorization-uri: https://www.linkedin.com/oauth/v2/authorization
+            token-uri: https://www.linkedin.com/oauth/v2/accessToken
+            user-info-uri: https://api.linkedin.com/v2/me
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: always
+    include-binding-errors: always
+
+# JWT Configuration
+jwt:
+  secret: ${JWT_SECRET:3cfa76ef14937c1c0ea519f8fc057a80fcd04a7420f8e8bcd0a7567c272e007b}
+  expiration: 900000          # 15 minutes
+  refresh-expiration: 604800000 # 7 days
+
+# OpenAI
+openai:
+  api-key: ${OPENAI_API_KEY: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}
+  model: ${OPENAI_MODEL:gpt-4o-mini}
+  base-url: https://api.openai.com/v1
+
+# Gemini
+gemini:
+  api-key: ${GEMINI_API_KEY:AIzaSyBUHfHZZO45IWHKJPr-LBTTmQEllD0WHzU}
+  model: ${GEMINI_MODEL:gemini-flash-latest}
+
+# Stripe
+stripe:
+  secret-key: ${STRIPE_SECRET_KEY:}
+  webhook-secret: ${STRIPE_WEBHOOK_SECRET:}
+  pro-price-id: ${STRIPE_PRO_PRICE_ID:price_pro}
+  enterprise-price-id: ${STRIPE_ENTERPRISE_PRICE_ID:price_enterprise}
+
+# AWS S3
+aws:
+  access-key: ${AWS_ACCESS_KEY:}
+  secret-key: ${AWS_SECRET_KEY:}
+  region: ${AWS_REGION:us-east-1}
+  bucket: ${AWS_BUCKET:ai-career-platform}
+
+# App
+app:
+  frontend-url: ${FRONTEND_URL:http://localhost:5173}
+  email-verification-expiry: 24  # hours
+  password-reset-expiry: 1       # hour
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when_authorized
+
+logging:
+  level:
+    com.aicareer: DEBUG
+    org.springframework.security: DEBUG

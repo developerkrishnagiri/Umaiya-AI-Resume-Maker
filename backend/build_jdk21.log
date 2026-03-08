@@ -1,0 +1,151 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.aicareer:ai-career-platform >-------------------
+[INFO] Building AI Career Platform 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ai-career-platform ---
+[INFO] Deleting C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ai-career-platform ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ai-career-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 53 source files with javac [forked debug release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\src\main\java\com\aicareer\controller\AuthController.java:[63,36] error: no suitable method found for of(String,String,String,String,String,String,String,String,String,String,String,String,String,Boolean,String,user.getAv[...] : "",String,user.getHe[...] : "",String,user.getLo[...] : "",String,user.getPh[...] : "")
+    method Map.<K#1,V#1>of() is not applicable
+      (cannot infer type-variable(s) K#1,V#1
+        (actual and formal argument lists differ in length))
+    method Map.<K#2,V#2>of(K#2,V#2) is not applicable
+      (cannot infer type-variable(s) K#2,V#2
+        (actual and formal argument lists differ in length))
+    method Map.<K#3,V#3>of(K#3,V#3,K#3,V#3) is not applicable
+      (cannot infer type-variable(s) K#3,V#3
+        (actual and formal argument lists differ in length))
+    method Map.<K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4) is not applicable
+      (cannot infer type-variable(s) K#4,V#4
+        (actual and formal argument lists differ in length))
+    method Map.<K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5) is not applicable
+      (cannot infer type-variable(s) K#5,V#5
+        (actual and formal argument lists differ in length))
+    method Map.<K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6) is not applicable
+      (cannot infer type-variable(s) K#6,V#6
+        (actual and formal argument lists differ in length))
+    method Map.<K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7) is not applicable
+      (cannot infer type-variable(s) K#7,V#7
+        (actual and formal argument lists differ in length))
+    method Map.<K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8) is not applicable
+      (cannot infer type-variable(s) K#8,V#8
+        (actual and formal argument lists differ in length))
+    method Map.<K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9) is not applicable
+      (cannot infer type-variable(s) K#9,V#9
+        (actual and formal argument lists differ in length))
+    method Map.<K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10) is not applicable
+      (cannot infer type-variable(s) K#10,V#10
+        (actual and formal argument lists differ in length))
+    method Map.<K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11) is not applicable
+      (cannot infer type-variable(s) K#11,V#11
+        (actual and formal argument lists differ in length))
+  where K#1,V#1,K#2,V#2,K#3,V#3,K#4,V#4,K#5,V#5,K#6,V#6,K#7,V#7,K#8,V#8,K#9,V#9,K#10,V#10,K#11,V#11 are type-variables:
+    K#1 extends Object declared in method <K#1,V#1>of()
+    V#1 extends Object declared in method <K#1,V#1>of()
+    K#2 extends Object declared in method <K#2,V#2>of(K#2,V#2)
+    V#2 extends Object declared in method <K#2,V#2>of(K#2,V#2)
+    K#3 extends Object declared in method <K#3,V#3>of(K#3,V#3,K#3,V#3)
+    V#3 extends Object declared in method <K#3,V#3>of(K#3,V#3,K#3,V#3)
+    K#4 extends Object declared in method <K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4)
+    V#4 extends Object declared in method <K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4)
+    K#5 extends Object declared in method <K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5)
+    V#5 extends Object declared in method <K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5)
+    K#6 extends Object declared in method <K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6)
+    V#6 extends Object declared in method <K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6)
+    K#7 extends Object declared in method <K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7)
+    V#7 extends Object declared in method <K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7)
+    K#8 extends Object declared in method <K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8)
+    V#8 extends Object declared in method <K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8)
+    K#9 extends Object declared in method <K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9)
+    V#9 extends Object declared in method <K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9)
+    K#10 extends Object declared in method <K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10)
+    V#10 extends Object declared in method <K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10)
+    K#11 extends Object declared in method <K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11)
+    V#11 extends Object declared in method <K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11)
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.843 s
+[INFO] Finished at: 2026-03-07T13:36:44+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ai-career-platform: Compilation failure
+[ERROR] C:\Users\Muniyappan R\Downloads\Resume-Ultimate\backend\src\main\java\com\aicareer\controller\AuthController.java:[63,36] error: no suitable method found for of(String,String,String,String,String,String,String,String,String,String,String,String,String,Boolean,String,user.getAv[...] : "",String,user.getHe[...] : "",String,user.getLo[...] : "",String,user.getPh[...] : "")
+[ERROR]     method Map.<K#1,V#1>of() is not applicable
+[ERROR]       (cannot infer type-variable(s) K#1,V#1
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#2,V#2>of(K#2,V#2) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#2,V#2
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#3,V#3>of(K#3,V#3,K#3,V#3) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#3,V#3
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#4,V#4
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#5,V#5
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#6,V#6
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#7,V#7
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#8,V#8
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#9,V#9
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#10,V#10
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]     method Map.<K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11) is not applicable
+[ERROR]       (cannot infer type-variable(s) K#11,V#11
+[ERROR]         (actual and formal argument lists differ in length))
+[ERROR]   where K#1,V#1,K#2,V#2,K#3,V#3,K#4,V#4,K#5,V#5,K#6,V#6,K#7,V#7,K#8,V#8,K#9,V#9,K#10,V#10,K#11,V#11 are type-variables:
+[ERROR]     K#1 extends Object declared in method <K#1,V#1>of()
+[ERROR]     V#1 extends Object declared in method <K#1,V#1>of()
+[ERROR]     K#2 extends Object declared in method <K#2,V#2>of(K#2,V#2)
+[ERROR]     V#2 extends Object declared in method <K#2,V#2>of(K#2,V#2)
+[ERROR]     K#3 extends Object declared in method <K#3,V#3>of(K#3,V#3,K#3,V#3)
+[ERROR]     V#3 extends Object declared in method <K#3,V#3>of(K#3,V#3,K#3,V#3)
+[ERROR]     K#4 extends Object declared in method <K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4)
+[ERROR]     V#4 extends Object declared in method <K#4,V#4>of(K#4,V#4,K#4,V#4,K#4,V#4)
+[ERROR]     K#5 extends Object declared in method <K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5)
+[ERROR]     V#5 extends Object declared in method <K#5,V#5>of(K#5,V#5,K#5,V#5,K#5,V#5,K#5,V#5)
+[ERROR]     K#6 extends Object declared in method <K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6)
+[ERROR]     V#6 extends Object declared in method <K#6,V#6>of(K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6,K#6,V#6)
+[ERROR]     K#7 extends Object declared in method <K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7)
+[ERROR]     V#7 extends Object declared in method <K#7,V#7>of(K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7,K#7,V#7)
+[ERROR]     K#8 extends Object declared in method <K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8)
+[ERROR]     V#8 extends Object declared in method <K#8,V#8>of(K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8,K#8,V#8)
+[ERROR]     K#9 extends Object declared in method <K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9)
+[ERROR]     V#9 extends Object declared in method <K#9,V#9>of(K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9,K#9,V#9)
+[ERROR]     K#10 extends Object declared in method <K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10)
+[ERROR]     V#10 extends Object declared in method <K#10,V#10>of(K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10,K#10,V#10)
+[ERROR]     K#11 extends Object declared in method <K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11)
+[ERROR]     V#11 extends Object declared in method <K#11,V#11>of(K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11,K#11,V#11)
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

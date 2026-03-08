@@ -1,0 +1,22 @@
+# Local development profile — uses H2 in-memory database (no PostgreSQL/Docker required)
+spring:
+  datasource:
+    url: jdbc:h2:mem:aicareer;DB_CLOSE_DELAY=-1;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: false  # Disable Flyway for local H2 — JPA auto-creates schema
+
+# Keep everything else from application.yml
+logging:
+  level:
+    com.aicareer: DEBUG
